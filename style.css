@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.parrafo::first-letter {
+    color: brown;
+}
+
+
+
+
+.parrafo2::first-line {
+
+    text-decoration: underline;
+}
+
+
+
+
+
+
+/*Especificidad*/
+
+/*!important;destaca o priorisa esta declaracion*/
+
+a {
+
+    color: rgb(0, 139, 42) !important;
+
+}
+/*estilos en linea en la etiqueta html*/
+
+
+/*#id*/
+#enlace {
+
+}
+.class {
+
+}
+/* unidades absolutas*/
+
+html {
+    font-size: 40px;
+}
+
+.parrafo2 {
+    font-size: 40px;
+
+}
+/*unidades relativas - REM */
+
+.parrafo {
+    font-size: 1rem;
+}                    /* 1em = a 16px*/
+
+/* Em hace referencia al valor del tamaño del navegador */
+/*.parrafo {                      
+   font-size: 4em;
+}*/
+/* comentario agregado para ver segunda opcion 
+a::before {
+    content: '❤' ;
+}
+*/
+
+a:hover::before {
+    content: '❤' ;
+}
+a::after {
+    content: '';
+}
+
+
+
+
+
+
+
+
+
+
